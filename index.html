@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_128434acf3b180a82f2e57661c576543 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_128434acf3b180a82f2e57661c576543" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_128434acf3b180a82f2e57661c576543 = L.map(
+                "map_128434acf3b180a82f2e57661c576543",
+                {
+                    center: [24.529417562173915, -104.38882976956523],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_09c71c4ace2bbb2bbc2c25782a3ec65c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_09c71c4ace2bbb2bbc2c25782a3ec65c.addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var marker_6dc4c52b134bd8b94fdea7a80d185773 = L.marker(
+                [24.0482868, -104.6217329],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_45883814cdb3f77417b5bddbe0a89e0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6dc4c52b134bd8b94fdea7a80d185773.setIcon(icon_45883814cdb3f77417b5bddbe0a89e0e);
+        
+    
+        var popup_ba2f360ede772c6ea881bae4ab939b12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e24f16cbc548dacbab0a0df9e3b3c68b = $(`<div id="html_e24f16cbc548dacbab0a0df9e3b3c68b" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Durango</div>`)[0];
+                popup_ba2f360ede772c6ea881bae4ab939b12.setContent(html_e24f16cbc548dacbab0a0df9e3b3c68b);
+            
+        
+
+        marker_6dc4c52b134bd8b94fdea7a80d185773.bindPopup(popup_ba2f360ede772c6ea881bae4ab939b12)
+        ;
+
+        
+    
+    
+            var marker_0c4d88063f71c632732cba4976461edc = L.marker(
+                [24.0289931, -104.6442301],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_27e60f986e3ba276aca25e78221b39fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0c4d88063f71c632732cba4976461edc.setIcon(icon_27e60f986e3ba276aca25e78221b39fa);
+        
+    
+        var popup_a85124fa5b53fb91f41fa434105f727d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_712c0c381dab2256a65b236fe8c1f7ff = $(`<div id="html_712c0c381dab2256a65b236fe8c1f7ff" style="width: 100.0%; height: 100.0%;">AFORE: PROFUTURO Estado: Durango</div>`)[0];
+                popup_a85124fa5b53fb91f41fa434105f727d.setContent(html_712c0c381dab2256a65b236fe8c1f7ff);
+            
+        
+
+        marker_0c4d88063f71c632732cba4976461edc.bindPopup(popup_a85124fa5b53fb91f41fa434105f727d)
+        ;
+
+        
+    
+    
+            var marker_3a2f3a91fddbb65e45f6209275c515d9 = L.marker(
+                [24.0300306, -104.6456206],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_5371bee820a4499251514e1fc98bc20c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3a2f3a91fddbb65e45f6209275c515d9.setIcon(icon_5371bee820a4499251514e1fc98bc20c);
+        
+    
+        var popup_eac9c62f14d3a323b6ce9b03e6762c5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e75507a4bc32b2d8aaed85bfb39b6b0b = $(`<div id="html_e75507a4bc32b2d8aaed85bfb39b6b0b" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Durango</div>`)[0];
+                popup_eac9c62f14d3a323b6ce9b03e6762c5f.setContent(html_e75507a4bc32b2d8aaed85bfb39b6b0b);
+            
+        
+
+        marker_3a2f3a91fddbb65e45f6209275c515d9.bindPopup(popup_eac9c62f14d3a323b6ce9b03e6762c5f)
+        ;
+
+        
+    
+    
+            var marker_38d72c476767eb6b4239ebd23b270ac3 = L.marker(
+                [25.5494619, -103.4784961],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_f4348cf85a0aace50b3f586e3a66d2f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_38d72c476767eb6b4239ebd23b270ac3.setIcon(icon_f4348cf85a0aace50b3f586e3a66d2f3);
+        
+    
+        var popup_9f37a6bd6a34ae7c5ded6ccb62492227 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b06f20de9999ed7c0630d764c0ad2aaa = $(`<div id="html_b06f20de9999ed7c0630d764c0ad2aaa" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Durango</div>`)[0];
+                popup_9f37a6bd6a34ae7c5ded6ccb62492227.setContent(html_b06f20de9999ed7c0630d764c0ad2aaa);
+            
+        
+
+        marker_38d72c476767eb6b4239ebd23b270ac3.bindPopup(popup_9f37a6bd6a34ae7c5ded6ccb62492227)
+        ;
+
+        
+    
+    
+            var marker_984fe815279be8ae822d785902358b7b = L.marker(
+                [25.5545574, -103.508086],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_d0aadd647ff92177faffddb5b0b699d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_984fe815279be8ae822d785902358b7b.setIcon(icon_d0aadd647ff92177faffddb5b0b699d5);
+        
+    
+        var popup_7cd053fd989ae98dc0b3f61032187008 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54433304843bddfc6bb410450c9b8448 = $(`<div id="html_54433304843bddfc6bb410450c9b8448" style="width: 100.0%; height: 100.0%;">AFORE: PENSIONISSSTE Estado: Durango</div>`)[0];
+                popup_7cd053fd989ae98dc0b3f61032187008.setContent(html_54433304843bddfc6bb410450c9b8448);
+            
+        
+
+        marker_984fe815279be8ae822d785902358b7b.bindPopup(popup_7cd053fd989ae98dc0b3f61032187008)
+        ;
+
+        
+    
+    
+            var marker_d037a4767635748fa45ee4e47a705599 = L.marker(
+                [24.021162, -104.671233],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_26d364cf7f719a6c9ac3ad64f1d4e7d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d037a4767635748fa45ee4e47a705599.setIcon(icon_26d364cf7f719a6c9ac3ad64f1d4e7d8);
+        
+    
+        var popup_0b33c16c1aa594e806543d9571fe915c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0defad111c3e83588f54727e303ad322 = $(`<div id="html_0defad111c3e83588f54727e303ad322" style="width: 100.0%; height: 100.0%;">AFORE: PENSIONISSSTE Estado: Durango</div>`)[0];
+                popup_0b33c16c1aa594e806543d9571fe915c.setContent(html_0defad111c3e83588f54727e303ad322);
+            
+        
+
+        marker_d037a4767635748fa45ee4e47a705599.bindPopup(popup_0b33c16c1aa594e806543d9571fe915c)
+        ;
+
+        
+    
+    
+            var marker_941e401ee8397dc362938e1ed7e1e893 = L.marker(
+                [24.0258092, -104.6669355],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_953ddc80a14ca839d9b24d3dfba441ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_941e401ee8397dc362938e1ed7e1e893.setIcon(icon_953ddc80a14ca839d9b24d3dfba441ea);
+        
+    
+        var popup_74dbf4a88f362468ac1cb017467254af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_900dcf500ef4f809041e7304882ac022 = $(`<div id="html_900dcf500ef4f809041e7304882ac022" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Durango</div>`)[0];
+                popup_74dbf4a88f362468ac1cb017467254af.setContent(html_900dcf500ef4f809041e7304882ac022);
+            
+        
+
+        marker_941e401ee8397dc362938e1ed7e1e893.bindPopup(popup_74dbf4a88f362468ac1cb017467254af)
+        ;
+
+        
+    
+    
+            var marker_3b90c9f185c342b41808a95d73518343 = L.marker(
+                [24.5592665, -104.6587821],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_75028451ca7265d2e82bb8f04557a962 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3b90c9f185c342b41808a95d73518343.setIcon(icon_75028451ca7265d2e82bb8f04557a962);
+        
+    
+        var popup_75fd097497f53c1d1868635ad018cd66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aeb2f2d4fbdb3c1679db5c754ab60b8f = $(`<div id="html_aeb2f2d4fbdb3c1679db5c754ab60b8f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Durango</div>`)[0];
+                popup_75fd097497f53c1d1868635ad018cd66.setContent(html_aeb2f2d4fbdb3c1679db5c754ab60b8f);
+            
+        
+
+        marker_3b90c9f185c342b41808a95d73518343.bindPopup(popup_75fd097497f53c1d1868635ad018cd66)
+        ;
+
+        
+    
+    
+            var marker_5d2cfb016eab6d3a9b27bfc03f2e142e = L.marker(
+                [24.0229949, -104.668303],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_b9e32a0f9893ad1d4bbf80f074a337e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5d2cfb016eab6d3a9b27bfc03f2e142e.setIcon(icon_b9e32a0f9893ad1d4bbf80f074a337e5);
+        
+    
+        var popup_46dc67974901e923a83ecdf41a897592 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31e5b64f26fe185248a0ec87573c384e = $(`<div id="html_31e5b64f26fe185248a0ec87573c384e" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Durango</div>`)[0];
+                popup_46dc67974901e923a83ecdf41a897592.setContent(html_31e5b64f26fe185248a0ec87573c384e);
+            
+        
+
+        marker_5d2cfb016eab6d3a9b27bfc03f2e142e.bindPopup(popup_46dc67974901e923a83ecdf41a897592)
+        ;
+
+        
+    
+    
+            var marker_58501c30ccfd64523851cf8d52b8ce5e = L.marker(
+                [25.5537148, -103.5063278],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_29acdef6874f139e12e56b497b738415 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_58501c30ccfd64523851cf8d52b8ce5e.setIcon(icon_29acdef6874f139e12e56b497b738415);
+        
+    
+        var popup_e597f2f4b9361adf78c260d825eb6fb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29efa058283430f0400575a83d70c9a0 = $(`<div id="html_29efa058283430f0400575a83d70c9a0" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Durango</div>`)[0];
+                popup_e597f2f4b9361adf78c260d825eb6fb3.setContent(html_29efa058283430f0400575a83d70c9a0);
+            
+        
+
+        marker_58501c30ccfd64523851cf8d52b8ce5e.bindPopup(popup_e597f2f4b9361adf78c260d825eb6fb3)
+        ;
+
+        
+    
+    
+            var marker_185fa361ebf708c1b306e41ded8313c3 = L.marker(
+                [24.0438612, -104.6312775],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_558b09b44ddb4240ed60d3cdf0cddec6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_185fa361ebf708c1b306e41ded8313c3.setIcon(icon_558b09b44ddb4240ed60d3cdf0cddec6);
+        
+    
+        var popup_416a2aaaefff8481278427316284dd0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee16236fc738e1b99a4e649f3608c052 = $(`<div id="html_ee16236fc738e1b99a4e649f3608c052" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Durango</div>`)[0];
+                popup_416a2aaaefff8481278427316284dd0c.setContent(html_ee16236fc738e1b99a4e649f3608c052);
+            
+        
+
+        marker_185fa361ebf708c1b306e41ded8313c3.bindPopup(popup_416a2aaaefff8481278427316284dd0c)
+        ;
+
+        
+    
+    
+            var marker_d74a4c3895d72e095d358bb5e7f147e3 = L.marker(
+                [24.0230219, -104.6703975],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_fcb21534e77f03f84418b241acf48046 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d74a4c3895d72e095d358bb5e7f147e3.setIcon(icon_fcb21534e77f03f84418b241acf48046);
+        
+    
+        var popup_7f2265ba06d14aeb62b22638f007ec28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4d83de2396e399024115a25c3bd3934 = $(`<div id="html_a4d83de2396e399024115a25c3bd3934" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Durango</div>`)[0];
+                popup_7f2265ba06d14aeb62b22638f007ec28.setContent(html_a4d83de2396e399024115a25c3bd3934);
+            
+        
+
+        marker_d74a4c3895d72e095d358bb5e7f147e3.bindPopup(popup_7f2265ba06d14aeb62b22638f007ec28)
+        ;
+
+        
+    
+    
+            var marker_98ed1764549dfccb384273501fb97cdb = L.marker(
+                [24.0076285, -104.6641195],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_616609095d6328707b83da06aeb077fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_98ed1764549dfccb384273501fb97cdb.setIcon(icon_616609095d6328707b83da06aeb077fd);
+        
+    
+        var popup_c51edf537b1412e085a9438f2fc1eb07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_721981a921208642eed56d6909b205dd = $(`<div id="html_721981a921208642eed56d6909b205dd" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Durango</div>`)[0];
+                popup_c51edf537b1412e085a9438f2fc1eb07.setContent(html_721981a921208642eed56d6909b205dd);
+            
+        
+
+        marker_98ed1764549dfccb384273501fb97cdb.bindPopup(popup_c51edf537b1412e085a9438f2fc1eb07)
+        ;
+
+        
+    
+    
+            var marker_baa3cfe764dd7cf9cb8b832e9a4643a9 = L.marker(
+                [25.5942357, -103.5032103],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_ada98abfbfba05f6078f53e7fce1c764 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_baa3cfe764dd7cf9cb8b832e9a4643a9.setIcon(icon_ada98abfbfba05f6078f53e7fce1c764);
+        
+    
+        var popup_671e5e5670af327dc9111e4a715b6665 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2c76a209f9b267f5dbfaa7fc18a3b9e = $(`<div id="html_d2c76a209f9b267f5dbfaa7fc18a3b9e" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Durango</div>`)[0];
+                popup_671e5e5670af327dc9111e4a715b6665.setContent(html_d2c76a209f9b267f5dbfaa7fc18a3b9e);
+            
+        
+
+        marker_baa3cfe764dd7cf9cb8b832e9a4643a9.bindPopup(popup_671e5e5670af327dc9111e4a715b6665)
+        ;
+
+        
+    
+    
+            var marker_5a8d9c84adaaab7f3db34b6eee9dc493 = L.marker(
+                [25.5457865, -103.5196068],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_be29b48fd05c111931be213ab51940d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5a8d9c84adaaab7f3db34b6eee9dc493.setIcon(icon_be29b48fd05c111931be213ab51940d7);
+        
+    
+        var popup_25650ffae30699306c8fbd6ce9b5b1ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbbcfae882c1d586ae1dd8a9ee3488da = $(`<div id="html_cbbcfae882c1d586ae1dd8a9ee3488da" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Durango</div>`)[0];
+                popup_25650ffae30699306c8fbd6ce9b5b1ed.setContent(html_cbbcfae882c1d586ae1dd8a9ee3488da);
+            
+        
+
+        marker_5a8d9c84adaaab7f3db34b6eee9dc493.bindPopup(popup_25650ffae30699306c8fbd6ce9b5b1ed)
+        ;
+
+        
+    
+    
+            var marker_1c0f421dde15e5b2f2e91c01e182539d = L.marker(
+                [24.0277202, -104.6531759],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_dbeff5bf2a74204d1ec3fb1e708af929 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1c0f421dde15e5b2f2e91c01e182539d.setIcon(icon_dbeff5bf2a74204d1ec3fb1e708af929);
+        
+    
+        var popup_1f45eb791dd0bcf816cde909a560c0f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84ef69c3e2f683d5f7e214a9481d57a0 = $(`<div id="html_84ef69c3e2f683d5f7e214a9481d57a0" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Durango</div>`)[0];
+                popup_1f45eb791dd0bcf816cde909a560c0f1.setContent(html_84ef69c3e2f683d5f7e214a9481d57a0);
+            
+        
+
+        marker_1c0f421dde15e5b2f2e91c01e182539d.bindPopup(popup_1f45eb791dd0bcf816cde909a560c0f1)
+        ;
+
+        
+    
+    
+            var marker_f3c7c2863613d4680dce33b4f7ded33d = L.marker(
+                [25.3384562, -105.7217668],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_d165e47b188b6c57fc198665b0f59859 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f3c7c2863613d4680dce33b4f7ded33d.setIcon(icon_d165e47b188b6c57fc198665b0f59859);
+        
+    
+        var popup_f688680ef51661506039df45a0443b41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cccd58c94533c770cea118956fd02b8 = $(`<div id="html_8cccd58c94533c770cea118956fd02b8" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Durango</div>`)[0];
+                popup_f688680ef51661506039df45a0443b41.setContent(html_8cccd58c94533c770cea118956fd02b8);
+            
+        
+
+        marker_f3c7c2863613d4680dce33b4f7ded33d.bindPopup(popup_f688680ef51661506039df45a0443b41)
+        ;
+
+        
+    
+    
+            var marker_051510c70038d29632b56493f3e00f6b = L.marker(
+                [24.0283729, -104.6614581],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_3c5edf63c8d69bf4c3927f66de7f9363 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_051510c70038d29632b56493f3e00f6b.setIcon(icon_3c5edf63c8d69bf4c3927f66de7f9363);
+        
+    
+        var popup_47bf5ee0410eb436b6e41a149c019089 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0044bf8fa670d532378736dc1733c92 = $(`<div id="html_d0044bf8fa670d532378736dc1733c92" style="width: 100.0%; height: 100.0%;">AFORE: SURA Estado: Durango</div>`)[0];
+                popup_47bf5ee0410eb436b6e41a149c019089.setContent(html_d0044bf8fa670d532378736dc1733c92);
+            
+        
+
+        marker_051510c70038d29632b56493f3e00f6b.bindPopup(popup_47bf5ee0410eb436b6e41a149c019089)
+        ;
+
+        
+    
+    
+            var marker_444ebeddc50b4682e138527f3d46d46d = L.marker(
+                [24.0283436, -104.6493255],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_17e28a7e766afa0d24fd137aab394ce3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_444ebeddc50b4682e138527f3d46d46d.setIcon(icon_17e28a7e766afa0d24fd137aab394ce3);
+        
+    
+        var popup_4287a2eb3449c1aa877e9935fb7caa71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b60effb3b3000d85d7e66c1e3b0aa5cf = $(`<div id="html_b60effb3b3000d85d7e66c1e3b0aa5cf" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Durango</div>`)[0];
+                popup_4287a2eb3449c1aa877e9935fb7caa71.setContent(html_b60effb3b3000d85d7e66c1e3b0aa5cf);
+            
+        
+
+        marker_444ebeddc50b4682e138527f3d46d46d.bindPopup(popup_4287a2eb3449c1aa877e9935fb7caa71)
+        ;
+
+        
+    
+    
+            var marker_f294c4af3848e9db2b7bec7969e4f468 = L.marker(
+                [25.5488873, -103.4729563],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_351fd14765a741760e6540034a00bb5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f294c4af3848e9db2b7bec7969e4f468.setIcon(icon_351fd14765a741760e6540034a00bb5b);
+        
+    
+        var popup_706d0f76099f71871209f645872d6e2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f80e8547fe5447ebee177fc77242d90e = $(`<div id="html_f80e8547fe5447ebee177fc77242d90e" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Durango</div>`)[0];
+                popup_706d0f76099f71871209f645872d6e2f.setContent(html_f80e8547fe5447ebee177fc77242d90e);
+            
+        
+
+        marker_f294c4af3848e9db2b7bec7969e4f468.bindPopup(popup_706d0f76099f71871209f645872d6e2f)
+        ;
+
+        
+    
+    
+            var marker_d89cdc39e36d6cc7795962fcca92e63e = L.marker(
+                [24.0315455, -104.6537497],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_50bdc397215eab7dee3d07cbc8ab7f06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d89cdc39e36d6cc7795962fcca92e63e.setIcon(icon_50bdc397215eab7dee3d07cbc8ab7f06);
+        
+    
+        var popup_1dc5519e338f82f42222368785f23627 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7eef14d67a5346323d5d1d14d8ab68ce = $(`<div id="html_7eef14d67a5346323d5d1d14d8ab68ce" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Durango</div>`)[0];
+                popup_1dc5519e338f82f42222368785f23627.setContent(html_7eef14d67a5346323d5d1d14d8ab68ce);
+            
+        
+
+        marker_d89cdc39e36d6cc7795962fcca92e63e.bindPopup(popup_1dc5519e338f82f42222368785f23627)
+        ;
+
+        
+    
+    
+            var marker_ab2c38ff57d597ccb5c42ed80d9d4e1d = L.marker(
+                [24.0277202, -104.6531759],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_40d53b7a959745a4d9f14e8c069f2fd2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ab2c38ff57d597ccb5c42ed80d9d4e1d.setIcon(icon_40d53b7a959745a4d9f14e8c069f2fd2);
+        
+    
+        var popup_029dfc2ac59177a0e9162110cb7a7ea6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2fb5a2c74e969d90fe6ca072bdcd777 = $(`<div id="html_a2fb5a2c74e969d90fe6ca072bdcd777" style="width: 100.0%; height: 100.0%;">AFORE: AZTECA Estado: Durango</div>`)[0];
+                popup_029dfc2ac59177a0e9162110cb7a7ea6.setContent(html_a2fb5a2c74e969d90fe6ca072bdcd777);
+            
+        
+
+        marker_ab2c38ff57d597ccb5c42ed80d9d4e1d.bindPopup(popup_029dfc2ac59177a0e9162110cb7a7ea6)
+        ;
+
+        
+    
+    
+            var marker_6472313e151c356e18936e5837f5b682 = L.marker(
+                [24.53674703, -104.4191178],
+                {
+}
+            ).addTo(map_128434acf3b180a82f2e57661c576543);
+        
+    
+            var icon_68bb632e22ec8b2810bebe50916307a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6472313e151c356e18936e5837f5b682.setIcon(icon_68bb632e22ec8b2810bebe50916307a3);
+        
+    
+        var popup_050bd7bcb48deceda05c559eb83172ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cedd349fe7074e49f4d02d9941b1ee5 = $(`<div id="html_6cedd349fe7074e49f4d02d9941b1ee5" style="width: 100.0%; height: 100.0%;">AFORE: Nuevo CAP Estado: Durango</div>`)[0];
+                popup_050bd7bcb48deceda05c559eb83172ec.setContent(html_6cedd349fe7074e49f4d02d9941b1ee5);
+            
+        
+
+        marker_6472313e151c356e18936e5837f5b682.bindPopup(popup_050bd7bcb48deceda05c559eb83172ec)
+        ;
+
+        
+    
+    
+            tile_layer_09c71c4ace2bbb2bbc2c25782a3ec65c.addTo(map_128434acf3b180a82f2e57661c576543);
+        
+</script>
+</html>
